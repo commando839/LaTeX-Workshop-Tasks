@@ -4,11 +4,6 @@ Welcome to the repository showcasing the tasks I completed during a **LaTeX Work
 
 ---
 
-## 📂 Repository Structure
-
-
----
-
 ## 📝 Tasks Overview
 
 ### 1️⃣ **Task 1: Basic Document Creation**  
