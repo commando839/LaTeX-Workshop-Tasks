@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+
+% Packages for math and formatting
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+% Document settings
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+\setlength{\textheight}{22cm}
+\setlength{\textwidth}{15cm}
+\setlength{\topmargin}{-1cm}
+\setlength{\oddsidemargin}{0.5cm}
+\setlength{\evensidemargin}{0.5cm}
+
+\begin{document}
+
+\begin{center}
+    \Large \textbf{First Principle of Finite Induction} \\
+    \vspace{0.5cm}
+    \large Ernest Michael Nelson \\
+    \vspace{0.5cm}
+    \normalsize December 15, 2024
+\end{center}
+
+\vspace{1.5cm}
+
+\section{Introduction}
+
+In this paper, we will be doing a step-by-step solution to a common induction problem. Also, it is shown and given in many books in the study of number theory and reasoning and proofs.
+
+\section{Formula}
+
+We are given the formula
+\[
+\sum_{n=1}^\infty n^2 = \frac{n(2n+1)(n+1)}{6}
+\]
+with \( n \) being an element of the natural numbers.
+
+\section{Proof:}
+
+Now we begin by running off a few terms to help see the pattern emerge.
+
+\[
+\sum_{n=1}^\infty 1^2 + 2^2 + 3^2 + 4^2 + 5^2 + \cdots + n^2 = \frac{n(2n+1)(n+1)}{6}
+\]
+
+Let's assume that \( n=1 \).
+
+\[
+1 = \frac{1(2(1)+1)(1+1)}{6} = 1
+\]
+\[
+1 = \frac{(2+1)(1+1)}{6} = 1
+\]
+\[
+1 = \frac{6}{6} = 1
+\]
+
+Next, we assume that \( n = k \) and that \( k \) is an element of the natural numbers. An equation we will use in the induction hypothesis is denoted as Equation 1.
+
+\[
+\sum_{k=1}^\infty 1^2 + 2^2 + 3^2 + 4^2 + 5^2 + \cdots + k^2 = \frac{k(2k+1)(k+1)}{6}
+\]
+
+\end{document}
